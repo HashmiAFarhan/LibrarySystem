@@ -302,7 +302,7 @@ private void searchBooks() {
     // Method to connect to the database
     private Connection connect() throws SQLException {
         
-        String url = "jdbc:mysql://localhost:3306/DB-NAME";
+        String url = "jdbc:mysql://localhost:3306/LibraryDB";
         String user = "USER";
         String password = "PASSWORD";
         return DriverManager.getConnection(url, user, password);
